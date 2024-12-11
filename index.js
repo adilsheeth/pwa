@@ -59,7 +59,7 @@ app.get("/:search.:gender.:roll_class.:house.:filter.:sort", (req, res) => {
     }
     myQuery += ` ORDER BY ${filter} ${sort} `
 
-    console.log(myQuery)
+    console.log(myQuery + '\n')
 
     db.all(myQuery, (err, rows) => {
         if (err) {
@@ -71,6 +71,9 @@ app.get("/:search.:gender.:roll_class.:house.:filter.:sort", (req, res) => {
     res.sendFile(path.join(__dirname, "public/index.html"))
 })
 
+app.get("/help", (req, res) => {
+    res.sendFile(path.join(__dirname, "public/help.html"))
+})
 //Host
 app.listen(5000, () => {
     console.log("Server is running, visit http://localhost:5000/ to access your website")
