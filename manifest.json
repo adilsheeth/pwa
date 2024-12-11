@@ -1,0 +1,13 @@
+{
+    "short_name": "StudentsDB",
+    "name": "Students Database",
+    "icons": [
+        {
+            "src": "./public/images/logo.webp",
+            "type": "image/webp",
+            "sizes": "192x192"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone"
+}
