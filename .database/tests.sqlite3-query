@@ -1,0 +1,15 @@
+-- database: ./data_source.db
+
+-- Creating table 
+CREATE TABLE students(
+    srn INTEGER NOT NULL PRIMARY KEY, 
+    first_name TEXT NOT NULL,
+    last_name TEXT NOT NULL,
+    gender TEXT NOT NULL,
+    school_year TEXT NOT NULL,
+    roll_class TEXT NOT NULL,
+    dob TEXT NOT NULL,
+    house TEXT NOT NULL
+    );
+
+SELECT * FROM students where roll_class = "10.1";
