@@ -1,6 +1,8 @@
 # Welcome to StudentsDB!
-
 This PWA (Progressive Web App) allows you to intuitively and easily access, filter and sort through the database of students at Parramatta High School.
+
+## Documentation
+The full documentation can be found [here](./documentation/doco.md).
 
 ## Pre-requisites
 `NodeJS` is required to run this program.
