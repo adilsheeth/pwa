@@ -15,19 +15,19 @@ CREATE TABLE students(
 -- Example Single Queries
 SELECT * FROM STUDENTS  WHERE (first_name LIKE '%Adil%' OR last_name LIKE '%Adil%' OR srn = 'Adil')  ORDER BY first_name ASC;
 
-SELECT * FROM STUDENTS  WHERE (gender = 'M')  ORDER BY first_name ASC
+SELECT * FROM STUDENTS  WHERE (gender = 'M')  ORDER BY first_name ASC;
 
-SELECT * FROM STUDENTS  WHERE (roll_class = '10.1')  ORDER BY first_name ASC
+SELECT * FROM STUDENTS  WHERE (roll_class = '10.1')  ORDER BY first_name ASC;
 
-SELECT * FROM STUDENTS  WHERE (house = 'BATMAN')  ORDER BY first_name ASC
+SELECT * FROM STUDENTS  WHERE (house = 'BATMAN')  ORDER BY first_name ASC;
 
-SELECT * FROM STUDENTS  ORDER BY last_name DESC
+SELECT * FROM STUDENTS  ORDER BY last_name DESC;
 
 -- Example Compound Queries
-SELECT * FROM STUDENTS  WHERE (first_name LIKE '%Ansh%' OR last_name LIKE '%Ansh%' OR srn = 'Ansh')  AND (gender = 'M')  AND (house = 'MARSDEN')  ORDER BY last_name DESC
+SELECT * FROM STUDENTS  WHERE (first_name LIKE '%Ansh%' OR last_name LIKE '%Ansh%' OR srn = 'Ansh')  AND (gender = 'M')  AND (house = 'MARSDEN')  ORDER BY last_name DESC;
 
-SELECT * FROM STUDENTS  WHERE (gender = 'M')  AND (roll_class = '10.7')  AND (house = 'MARSDEN')  ORDER BY first_name ASC
+SELECT * FROM STUDENTS  WHERE (gender = 'M')  AND (roll_class = '10.7')  AND (house = 'MARSDEN')  ORDER BY first_name ASC;
 
-SELECT * FROM STUDENTS  WHERE (gender = 'F')  AND (roll_class = 'SRC')  AND (house = 'BATMAN')  ORDER BY first_name ASC
+SELECT * FROM STUDENTS  WHERE (gender = 'F')  AND (roll_class = 'SRC')  AND (house = 'BATMAN')  ORDER BY first_name ASC;
 
-SELECT * FROM STUDENTS  WHERE (first_name LIKE '%454920155%' OR last_name LIKE '%454920155%' OR srn = '454920155')  AND (gender = 'F')  AND (roll_class = 'SRC')  AND (house = 'BATMAN')  ORDER BY first_name ASC
+SELECT * FROM STUDENTS  WHERE (first_name LIKE '%454920155%' OR last_name LIKE '%454920155%' OR srn = '454920155')  AND (gender = 'F')  AND (roll_class = 'SRC')  AND (house = 'BATMAN')  ORDER BY first_name ASC;

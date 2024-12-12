@@ -2,7 +2,7 @@
 document.getElementById("filterform").addEventListener("submit", (e) => {
     e.preventDefault()
 
-    let search = document.getElementById("search").value 
+    let search = document.getElementById("search").value
     if (search == "") {
         search = null
     }
