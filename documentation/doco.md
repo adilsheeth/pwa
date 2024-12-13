@@ -94,6 +94,8 @@ Certainly room for improvement. Following the suggestions given, such as adding 
 
 ![Lighthouse test after](lighthouse-after.png)
 
+By using accessible designs like tiling, bigger and easily readable font, and dynamically changing sizes of the main content, I was able to ensure that my project is widely available for everyone to use. Screenreader support was a key consideration throughout development, as I ensured to add `alt-text` and `aria-label`s for every element, allowing anyone to figure out how to use my app. Finally, I made sure that I used an intuitive form and element design, striving for simplicity and an easy, consistent flow throughout the page. 
+
 Additionally, I conducted user testing with a few of my peers, who provided feedback on the design and functionality of my app. This feedback was invaluable, as it allowed me to identify and fix any issues that I had overlooked, and improve the overall user experience of my app. This included adding a `clear` and `help` button, as well as improving the design of the form to be more user-friendly and intuitive, such as adding red, blue and yellow colours to the buttons.
 
 ### 10. Project Documentation
