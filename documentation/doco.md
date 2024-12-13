@@ -102,11 +102,15 @@ Additionally, I conducted user testing with a few of my peers, who provided feed
 | Date | Description |
 | :---: | :---: |
 | 1/11 | Set up the development environment by installing all required VSCode extensions (including the recommended ones), Node.js, and Git Bash. Had issues configuring Bash in VSCode, but a restart and PATH update fixed it quickly. Ready to start the development process. |
-|8/11| Forked Github template and created the basic development file structure. Utilised the Git Bash terminal to create folders and files. Stopped at the Database structure section of the instructions in order to determine what data is going to be used (current idea is a student database). |
+| 4/11 | Helped Lilly set up her development environment. |
+| 5/11 | Helped Tony set up his development environment, and taught him how to actually follow the instructions :/ |
+| 8/11 | Forked Github template and created the basic development file structure. Utilised the Git Bash terminal to create folders and files. Stopped at the Database structure section of the instructions in order to determine what data is going to be used (current idea is a student database). |
+| 11/11 | Helped fix Lilly's database error for a whole double period (she was missing a quote :/) |
 |15/11| Created a CSV file with student data, and used it to create a database in SQLite. |
 |1/12| Created the basic front end, linked it to the database, and created a JSON file to store the data. |
+|2/12 to 6/12 | Exam Block, no work 
 |9/12| Started to implement Bootstrap, and tried to make the front end look better. I also brainstormed ideas on how to connect the front and back ends.|
-|10/12| Experimented with different frameworks such as React and Angular, to no avail. Settled on using Express' parameters feature to pass data instead. Created my custom SQL query constructor and linked it to the back-end.|
+|10/12| Experimented with different frameworks such as React and Angular, to no avail. Settled on using Express' parameters feature to pass data instead. Created my custom SQL query constructor and linked it to the back-end. Created `params.js` to pass data from the form to the backend. |
 |11/12| Restarted the project, copying over the database only. Restructured my project directory to make it more cohesive. Finally figured out why my JS wasn't executing, and fixed Refined Bootstrap implementation and started to style the resultant cards. Styled the page layout better, and added sort options (ascending and descending). Added a ReadMe, logo, and manifest.json. |
 |12/12| Finished the project, conducted accessibility testing, added serviceWorker.js (with nothing in it), conducted user testing, and did all this documentation. |
 
