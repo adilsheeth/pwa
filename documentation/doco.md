@@ -1,6 +1,7 @@
 # SWE Term 1 - Progressive Web App
 ## By Adil Sheeth
 
+
 ### 1. Set up your Development Environment
 Following the instructions on the TempeHS Github, I created the basic directory structure for my project, including the `css`, `js` and `images` folders, as well as `index.html`, `index.js`, and `app.js`.
 Additionally, I installed NodeJS, SQLite3 (in VSCode), and initialised a Git repository.
